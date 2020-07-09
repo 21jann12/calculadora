@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
 </head>
 <body>
 	<div>
@@ -11,24 +12,26 @@
 		</div>
 		<div id="teclado">
 			<div class="botoes">
-				<input type="button" id="tecla_a">
-				<input type="button" id="tecla_b">
-				<input type="button" id="tecla_0">
-				<input type="button" id="tecla_1">
-				<input type="button" id="tecla_2">
-				<input type="button" id="tecla_3">
-				<input type="button" id="tecla_4">
-				<input type="button" id="tecla_5">
-				<input type="button" id="tecla_6">
-				<input type="button" id="tecla_7">
-				<input type="button" id="tecla_8">
-				<input type="button" id="tecla_9">
+				<input type="button" class="operacao" id="tecla_a" value="A">
+				<input type="button" class="operacao" id="tecla_b" value="B">
+				<input type="button" class="numero" id="tecla_0" value="0">
+				<input type="button" class="numero" id="tecla_1" value="1">
+				<input type="button" class="numero" id="tecla_2" value="2">
+				<input type="button" class="numero" id="tecla_3" value="3">
+				<input type="button" class="numero" id="tecla_4" value="4">
+				<input type="button" class="numero" id="tecla_5" value="5">
+				<input type="button" class="numero" id="tecla_6" value="6">
+				<input type="button" class="numero" id="tecla_7" value="7">
+				<input type="button" class="numero" id="tecla_8" value="8">
+				<input type="button" class="numero" id="tecla_9" value="9">
 			</div>
 			<div class="botoes">
-				<input type="button" id="tecla_clear">
-				<input type="button" id="tecla_back">
+				<input type="button" class="operacao" id="tecla_clear" value="Clear">
+				<input type="button" class="operacao" id="tecla_back" value="Del">
 			</div>
 		</div>
 	</div>
+
+<script type="text/javascript" src="./assets/js/operacoes.js"></script>
 </body>
 </html>

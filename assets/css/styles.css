@@ -1,0 +1,47 @@
+body {
+	text-align: center;
+	background-color: gray;
+}
+
+#corpo {
+	border: 2px solid black;
+	border-radius: 15px;
+	width: 300px;
+	height: 300px;
+	margin: auto;
+	background-color: #ccccb3;
+	box-shadow: 7px 7px 9px 5px rgba(1,0,0,0.7)
+	
+
+}
+
+#visor {
+	height: 25%;
+}
+
+#tela{
+	width: 225px;
+	height: 35px;
+	margin: 15px;
+}
+
+#teclado{
+	height: 75%;
+}
+
+.botoes input {
+	display: inline-block;
+	height: 35px;
+	width: 30%;
+}
+
+.botoes: first-of-type {
+	height: 70%;
+}
+.botoes: last-of-type {
+	height: 30%;
+}
+
+.botoes input:hover {
+	box-shadow: inset -5px -5px 3px -4px rgba(1,0,0,0.7);
+}
